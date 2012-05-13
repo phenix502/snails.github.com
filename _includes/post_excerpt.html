@@ -1,0 +1,14 @@
+<article class="post excerpt">
+  <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3> 
+  <div class="post byline">
+      {{ post.date | date: "%d %b, %Y" }}
+  </div>
+  {% if post.banner %}
+  <div>    
+    <img class="bordered" alt="screenshot" src={{ post.banner }} style="width:70%;" />
+  </div>
+  {% endif %}  
+  <div class="post excerpt content">
+    {{ post.content }}
+  </div>
+</article>

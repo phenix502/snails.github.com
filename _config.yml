@@ -1,0 +1,14 @@
+permalink:    /:year/:month/:day/:title
+analytics_id: UA-31475638-1
+title:        DavidWei
+description:  Personal Blog Of David Wei
+url:          http://snails.github.com
+author:       David
+email:        godhuyang@gmail.com
+github:       http://github.com/snails
+keywords:    css,html,ruby,rails,blog,mongodb,oracle
+comments:     true
+feed:         http://snails.github.com/atom.xml
+ignore:       _blog, _posts/folio
+markdown:     rdiscount
+pygments:     true

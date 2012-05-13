@@ -1,0 +1,19 @@
+---
+layout:   default
+title:    Home 
+--- 
+<div class="span-12 last">
+  <p class="first">
+    哟！这是一个Software爱好者的Blog，包含了Ruby<span class="ampersand">&amp;</span>Database等等
+  </p>
+</div>
+
+<div id="latest-notes" class="span-12 last">  
+  <h2>Recent notes</h2>
+  {% for post in site.posts limit:1 %}
+    {% include post_excerpt.html %}    
+  {% endfor %}
+  <p>
+   旧Posts请点击<a href="/notebook.html">这里</a>
+  </p>
+</div>
