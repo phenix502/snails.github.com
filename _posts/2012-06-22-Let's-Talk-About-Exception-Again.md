@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "再谈Ruby Exception（笔记）"
+title:        "再谈Ruby的异常处理(学习笔记)"
 description: 
 banner: 
 categories: 

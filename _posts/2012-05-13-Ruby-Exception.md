@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Ruby Programing 1.9学习笔记"
+title:        "Ruby Exception——1"
 description: 
 banner: 
 categories: 
